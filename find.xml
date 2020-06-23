@@ -3,6 +3,7 @@
     <option name="customScope" value="TOTO QC" />
     <option name="defaultScopeName" value="TOTO QC" />
     <option name="SEARCH_SCOPE" value="TOTO QC" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
