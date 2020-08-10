@@ -3,16 +3,52 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://git.oschina.net" />
-          <option name="userName" value="wt@wangting.name" />
+          <option name="url" value="https://github.com/lawa7788/software_license_management.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/OCA/report-print-send" />
+          <option name="url" value="https://github.com/tanghulu0608/toto_cafe_server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lawa7788/essilor" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lawa7788/essilor.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:samuguying/toto_work.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/samuguying/toto_work.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:lawa7788/toto_device_manage.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lawa7788/toto_device_manage.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/OCA/report-print-send.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/OCA/server-ux.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/OCA/purchase-workflow.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
+    <option name="cloneParentDir" value="$USER_HOME$/odoodev" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
@@ -25,7 +61,7 @@
     </option>
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop" />
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/桌面" />
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
 </application>
