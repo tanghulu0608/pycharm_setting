@@ -6,7 +6,8 @@
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
-    <mask>*.xml</mask>
     <mask>*.py</mask>
+    <mask>*.xml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
