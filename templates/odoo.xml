@@ -877,9 +877,9 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="odoo_action_form" value="form_view = [(self.env.ref('yj_account_cost.hr_overtime_cost_view_form').id, 'form')]&#10;action[&quot;views&quot;] = form_view" toReformat="false" toShortenFQNames="true">
+  <template name="odoo_action_form" value="form_view = [(self.env.ref('yj_account_cost.hr_overtime_cost_view_form').id, 'form')]&#10;action[&quot;views&quot;] = form_view" description="" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="XML" value="true" />
+      <option name="Python" value="true" />
     </context>
   </template>
 </templateSet>
