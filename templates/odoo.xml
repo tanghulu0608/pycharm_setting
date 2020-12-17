@@ -19,7 +19,7 @@
     <variable name="inherit_view_xmlid" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <variable name="view_xmlid" expression="concat(snakeCase(inherit_view_xmlid),&quot;_inherit&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="view_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="view_name" expression="regularExpression(inherit_view_xmlid, '^.*\.', '')" defaultValue="" alwaysStopAt="false" />
     <variable name="expr" expression="//field[@name='name']" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
@@ -875,6 +875,11 @@
   <template name="odoo_options_no_create" value="options=&quot;{'no_create':True}&quot;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="odoo_action_form" value="form_view = [(self.env.ref('yj_account_cost.hr_overtime_cost_view_form').id, 'form')]&#10;action[&quot;views&quot;] = form_view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
     </context>
   </template>
 </templateSet>
