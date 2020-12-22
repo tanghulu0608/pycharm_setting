@@ -30,6 +30,10 @@
           <option name="url" value="http://47.96.86.23:3000" />
           <option name="userName" value="39181819@qq.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:tanghulu0608/barebones.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
