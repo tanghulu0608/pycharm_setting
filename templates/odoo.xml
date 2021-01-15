@@ -882,7 +882,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="odoo_invisible" value="invisible=&quot;True&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="odoo_invisible" value="invisible=&quot;True&quot;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
