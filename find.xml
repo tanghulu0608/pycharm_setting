@@ -10,7 +10,7 @@
     <mask>*.pyw</mask>
     <mask>*.po</mask>
     <mask>*.js</mask>
-    <mask>*.py</mask>
     <mask>*.xml</mask>
+    <mask>*.py</mask>
   </component>
 </application>
