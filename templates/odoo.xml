@@ -892,4 +892,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="odoo_optional_show" value="optional=&quot;show&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="odoo_optional_hide" value="optional=&quot;hide&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
