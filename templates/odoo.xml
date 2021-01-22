@@ -560,7 +560,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="odoo_method_name_get" value="@api.multi&#10;def name_get(self):&#10;    return [($record$.id, $record_name$) for $record$ in self]&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="odoo_method_name_get" value="def name_get(self):&#10;    return [($record$.id, $record_name$) for $record$ in self]&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="record" expression="" defaultValue="&quot;record&quot;" alwaysStopAt="true" />
     <variable name="record_name" expression="" defaultValue="&quot;record.name&quot;" alwaysStopAt="true" />
     <context>
