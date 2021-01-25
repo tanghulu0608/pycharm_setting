@@ -2,16 +2,15 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
     <mask>*.po</mask>
     <mask>*.js</mask>
     <mask>*.scss</mask>
-    <mask>*.py</mask>
     <mask>*.xml</mask>
+    <mask>*.py</mask>
   </component>
 </application>
