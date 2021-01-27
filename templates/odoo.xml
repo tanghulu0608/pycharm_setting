@@ -907,4 +907,11 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="odoo_attrs_column_invisible" value="attrs=&quot;{'column_invisible': [('parent.$f1$', '!=', $f2$)]}&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="f1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="f2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
