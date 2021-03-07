@@ -8,8 +8,8 @@
     <mask>*.pyw</mask>
     <mask>*.po</mask>
     <mask>*.scss</mask>
+    <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.xml</mask>
-    <mask>*.js</mask>
   </component>
 </application>
