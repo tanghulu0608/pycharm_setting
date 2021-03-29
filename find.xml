@@ -9,9 +9,9 @@
     <mask>*.po</mask>
     <mask>*.scss</mask>
     <mask>css</mask>
-    <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.py</mask>
     <mask>*.xml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
