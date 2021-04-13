@@ -11,8 +11,8 @@
     <mask>*.scss</mask>
     <mask>css</mask>
     <mask>*.js</mask>
-    <mask>*.py</mask>
     <mask>*.xml</mask>
+    <mask>*.py</mask>
     <mask>*.py</mask>
   </component>
 </application>
