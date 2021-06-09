@@ -90,6 +90,10 @@
           <option name="url" value="git@github.com:tanghulu0608/sanofi.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@e.coding.net:smartemployee/smart-data/Smart_Data_Backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
