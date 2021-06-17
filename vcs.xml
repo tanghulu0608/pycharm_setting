@@ -98,6 +98,14 @@
           <option name="url" value="git@e.coding.net:smartemployee/vx-logistic-fee-tracking/VXLFT_B.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@e.coding.net:smartemployee/one-platform/SE_One_Platform_Backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@e.coding.net:smartemployee/hr-one-portal/HR_One_Portal_Backend.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
