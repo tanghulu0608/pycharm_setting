@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Essilor" />
     <option name="defaultScopeName" value="Essilor" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Essilor" />
     <mask>*.css</mask>
     <mask>*.html</mask>
