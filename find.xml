@@ -12,8 +12,8 @@
     <mask>css</mask>
     <mask>*.js</mask>
     <mask>*.csv</mask>
-    <mask>*.py</mask>
     <mask>*.xml</mask>
+    <mask>*.py</mask>
     <mask>*.py</mask>
   </component>
 </application>
