@@ -11,9 +11,9 @@
     <mask>*.scss</mask>
     <mask>css</mask>
     <mask>*.csv</mask>
-    <mask>*.xml</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.xml</mask>
     <mask>*.py</mask>
   </component>
 </application>
