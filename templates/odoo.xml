@@ -935,4 +935,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="odoo_xlsxwriter_BytesIO" value="import io&#10;import xlsxwriter&#10;&#10;file_data = io.BytesIO()&#10;workbook = xlsxwriter.Workbook(file_data)&#10;sheet = workbook.add_worksheet(&quot;$sheet$&quot;)" toReformat="true" toShortenFQNames="true">
+    <variable name="sheet" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
