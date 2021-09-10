@@ -20,7 +20,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://gitee.com" />
-          <option name="userName" value="dangdad" />
+          <option name="userName" value="wt@wangting.name" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="git@github.com:tanghulu0608/panel_addons.git" />
@@ -112,6 +112,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="git@github.com:tanghulu0608/hailun.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/osboer/aochi_addons.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
