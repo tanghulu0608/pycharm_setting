@@ -17,8 +17,8 @@
   </template>
   <template name="odoo_view_inherit" value="&lt;record id=&quot;$view_xmlid$&quot; model=&quot;ir.ui.view&quot;&gt;&#10;    &lt;field name=&quot;name&quot;&gt;$view_name$&lt;/field&gt;&#10;    &lt;field name=&quot;model&quot;&gt;$model_name$&lt;/field&gt;&#10;    &lt;field name=&quot;inherit_id&quot; ref=&quot;$inherit_view_xmlid$&quot;/&gt;&#10;    &lt;field name=&quot;arch&quot; type=&quot;xml&quot;&gt;&#10;        &lt;xpath expr=&quot;$expr$&quot; position=&quot;&quot;&gt;&#10;            &#10;        &lt;/xpath&gt;&#10;    &lt;/field&gt;&#10;&lt;/record&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="inherit_view_xmlid" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
-    <variable name="view_xmlid" expression="concat(snakeCase(regularExpression(inherit_view_xmlid,&quot;.*(?=\.)&quot;,&quot;&quot;)),&quot;_inherit&quot;)" defaultValue="" alwaysStopAt="false" />
-    <variable name="model_name" expression="substringBefore(inherit_view_xmlid, '.')" defaultValue="" alwaysStopAt="true" />
+    <variable name="view_xmlid" expression="regularExpression(inherit_view_xmlid,&quot;.*\.+&quot;,&quot;&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="view_name" expression="regularExpression(view_xmlid, &quot;_&quot;, &quot;.&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="expr" expression="" defaultValue="//field[@name='name']" alwaysStopAt="true" />
     <context>
