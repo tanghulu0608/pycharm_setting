@@ -3,7 +3,7 @@
     <option name="customScope" value="Essilor" />
     <option name="defaultScopeName" value="Essilor" />
     <option name="SEARCH_SCOPE" value="Essilor" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*.js,*.py,*.xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
@@ -15,5 +15,6 @@
     <mask>*.js</mask>
     <mask>*.py</mask>
     <mask>*.py</mask>
+    <mask>*.js,*.py,*.xml</mask>
   </component>
 </application>
