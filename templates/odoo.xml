@@ -949,4 +949,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="odoo_manifest_assets" value="'assets': {&#10;    'web.assets_backend': [&#10;        'web/static/src/xml/**/*',&#10;    ],&#10;    'web.assets_frontend': [&#10;        '$module_name$',&#10;    ],&#10;    'web.assets_common': [&#10;        'web/static/lib/bootstrap/**/*',&#10;        'web/static/src/js/boot.js',&#10;        'web/static/src/js/webclient.js',&#10;    ],&#10;    'web.qunit_suite_tests': [&#10;        'web/static/src/js/webclient_tests.js',&#10;    ],&#10;}," toReformat="false" toShortenFQNames="true">
+    <variable name="module_name" expression="substringBefore(fileRelativePath(), '/')" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
