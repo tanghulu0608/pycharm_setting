@@ -213,11 +213,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="odoo_action_wizard" value="&lt;act_window id=&quot;$action_xmlid$&quot; name=&quot;$action_name$&quot; &#10;res_model=&quot;$res_model_name$&quot; binding_model=&quot;$binding_model$&quot;&#10;view_mode=&quot;form&quot; target=&quot;new&quot; binding_views=&quot;list&quot;&#10;groups=&quot;&quot;/&gt;&#10;" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="res_model_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action_xmlid" expression="concat(snakeCase(res_model_name),&quot;_action&quot;)" defaultValue="" alwaysStopAt="false" />
+  <template name="odoo_action_wizard" value="&lt;record id=&quot;$action_xmlid$&quot; model=&quot;ir.actions.act_window&quot;&gt;&#10;    &lt;field name=&quot;name&quot;&gt;$action_name$&lt;/field&gt;&#10;    &lt;field name=&quot;res_model&quot;&gt;$res_model$&lt;/field&gt;&#10;    &lt;field name=&quot;view_mode&quot;&gt;form&lt;/field&gt;&#10;    &lt;field name=&quot;target&quot;&gt;new&lt;/field&gt;&#10;    &lt;field name=&quot;context&quot; eval=&quot;{&#10;        '$key$': '$value$',&#10;    }&quot;/&gt;&#10;    &lt;field name=&quot;binding_model_id&quot; ref=&quot;$binding_model$&quot;/&gt;&#10;    &lt;field name=&quot;binding_view_types&quot;&gt;$binding_view_types$&lt;/field&gt;&#10;&lt;/record&gt;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="binding_model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action_xmlid" expression="concat(snakeCase(res_model), &quot;_action&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="action_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="res_model" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="binding_view_types" expression="" defaultValue="list,form" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
     </context>
