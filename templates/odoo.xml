@@ -968,4 +968,11 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="odoo_abstract_model_new" value="class $class_name$(models.AbstractModel):&#10;    _name = &quot;$model_name$&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class_name" expression="capitalize(camelCase(model_name))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
