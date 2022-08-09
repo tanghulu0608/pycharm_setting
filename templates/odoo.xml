@@ -963,4 +963,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="odoo_widet_boolean_toggle" value="widget=&quot;boolean_toggle&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
