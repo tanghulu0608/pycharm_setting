@@ -22,6 +22,7 @@
         <option value="odoo.models.convert_chinese_number" />
         <option value="list.unlink" />
         <option value="dcp.models.request.DcpRequest.message_post" />
+        <option value="dcp.models.request.DcpRequest.id" />
       </list>
     </option>
   </inspection_tool>
