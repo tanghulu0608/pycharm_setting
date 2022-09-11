@@ -23,6 +23,7 @@
         <option value="list.unlink" />
         <option value="dcp.models.request.DcpRequest.message_post" />
         <option value="dcp.models.request.DcpRequest.id" />
+        <option value="base_hco.models.res_partner.ResPartner.id" />
       </list>
     </option>
   </inspection_tool>
