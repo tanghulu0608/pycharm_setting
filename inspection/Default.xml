@@ -25,6 +25,7 @@
         <option value="dcp.models.request.DcpRequest.id" />
         <option value="base_hco.models.res_partner.ResPartner.id" />
         <option value="dcp.wizards.dcp_request_import.DcpRequestImport.id" />
+        <option value="odoo.models.BaseModel.session_info" />
       </list>
     </option>
   </inspection_tool>
