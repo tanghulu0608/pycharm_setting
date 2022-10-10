@@ -26,6 +26,7 @@
         <option value="base_hco.models.res_partner.ResPartner.id" />
         <option value="dcp.wizards.dcp_request_import.DcpRequestImport.id" />
         <option value="odoo.models.BaseModel.session_info" />
+        <option value="stock_appeal.models.flow_input_import_log.StockFlowInputImportLog.id" />
       </list>
     </option>
   </inspection_tool>
