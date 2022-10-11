@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Essilor" />
     <option name="defaultScopeName" value="Essilor" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Essilor" />
     <option name="FILE_MASK" value="*.xml" />
     <mask>*.css</mask>
