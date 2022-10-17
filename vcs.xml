@@ -126,6 +126,10 @@
           <option name="url" value="http://github.sanofidigital.cn" />
           <option name="userName" value="Tin.Wang@sanofi.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.sanofidigital.cn/Sanofi-China-Digital/SE_Jobs.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
