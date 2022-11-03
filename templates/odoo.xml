@@ -975,7 +975,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="odoo_web_ribbon" value="&lt;widget name=&quot;web_ribbon&quot; title=&quot;Archived&quot; bg_color=&quot;bg-danger&quot; attrs=&quot;{'invisible': [('active', '=', True)]}&quot;/&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="odoo_web_ribbon" value="&lt;widget name=&quot;web_ribbon&quot; title=&quot;Archived&quot; bg_color=&quot;bg-danger&quot; attrs=&quot;{'invisible': [('active', '=', True)]}&quot;/&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
