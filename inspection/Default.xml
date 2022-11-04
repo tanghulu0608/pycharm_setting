@@ -28,6 +28,7 @@
         <option value="odoo.models.BaseModel.session_info" />
         <option value="stock_appeal.models.flow_input_import_log.StockFlowInputImportLog.id" />
         <option value="se_collect.models.collect.Collect.workbook" />
+        <option value="se_collect.models.collect.Collect.id" />
       </list>
     </option>
   </inspection_tool>
