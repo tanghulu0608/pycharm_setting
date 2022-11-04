@@ -8,6 +8,8 @@
       <mapping pattern="hc_prog_stage.xml" type="PLAIN_TEXT" />
       <mapping ext="cprof" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <removed_mapping ext="txt" type="PLAIN_TEXT" />
+      <mapping ext="txt" type="requirements.txt" />
       <removed_mapping ext="vue" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
