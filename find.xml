@@ -3,7 +3,7 @@
     <option name="customScope" value="Sanofi" />
     <option name="defaultScopeName" value="Sanofi" />
     <option name="SEARCH_SCOPE" value="Sanofi" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
@@ -13,8 +13,8 @@
     <mask>*.csv</mask>
     <mask>*.js,*.py,*.xml</mask>
     <mask>*.js</mask>
+    <mask>*.py</mask>
+    <mask>*.py</mask>
     <mask>*.xml</mask>
-    <mask>*.py</mask>
-    <mask>*.py</mask>
   </component>
 </application>
