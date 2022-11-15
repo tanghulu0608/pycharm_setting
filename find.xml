@@ -3,7 +3,6 @@
     <option name="customScope" value="Sanofi" />
     <option name="defaultScopeName" value="Sanofi" />
     <option name="SEARCH_SCOPE" value="Sanofi" />
-    <option name="FILE_MASK" value="*.py" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.pyw</mask>
