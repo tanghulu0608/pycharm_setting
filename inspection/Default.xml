@@ -30,6 +30,8 @@
         <option value="se_collect.models.collect.Collect.workbook" />
         <option value="se_collect.models.collect.Collect.id" />
         <option value="se_collect_partner.models.question.SeCollectQuestion.collect_id" />
+        <option value="se_collect_partner.collect_report_export.SeCollectReportExport.collect_id" />
+        <option value="odoo.models.Model._make_report_xls_" />
       </list>
     </option>
   </inspection_tool>
