@@ -130,6 +130,10 @@
           <option name="url" value="https://github.sanofidigital.cn/Sanofi-China-Digital/SE_Jobs.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:osboer/rf14_252.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/odoo-dev" />
